@@ -1,9 +1,13 @@
 package proyecto.umg;
 
+import Vistas.Dashboard;
+import Vistas.Login;
+
 public class ProyectoUMG {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        new Dashboard().setVisible( true );
     }
     
 }
