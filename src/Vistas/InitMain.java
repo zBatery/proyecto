@@ -16,7 +16,7 @@ public class InitMain {
     public void mostrar(JPanel panMain, JPanel content) {
 
         content.setSize(810, 590);
-        content.setLocation(10, 0);
+        content.setLocation(0, 0);
 
         panMain.removeAll();
         panMain.add( content, BorderLayout.CENTER);

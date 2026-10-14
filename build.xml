@@ -70,4 +70,10 @@
     nbproject/build-impl.xml file. 
 
     -->
+    
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-conector-java</artifactId>
+        <version>5.1.13</version>
+    </dependency>
 </project>

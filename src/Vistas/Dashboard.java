@@ -22,6 +22,8 @@ public class Dashboard extends javax.swing.JFrame {
     public Dashboard() {
         initComponents();
         
+        setLocationRelativeTo(null);
+        
        
         iM.mostrar( panMain, new Inicio() );
     }
@@ -116,7 +118,7 @@ public class Dashboard extends javax.swing.JFrame {
         btnConfiguracion.setBackground(new java.awt.Color(21, 101, 192));
         btnConfiguracion.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btnConfiguracion.setForeground(new java.awt.Color(255, 255, 255));
-        btnConfiguracion.setText("Configuración");
+        btnConfiguracion.setText("Usuarios");
         btnConfiguracion.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 20, 1, 1, new java.awt.Color(0, 0, 0)));
         btnConfiguracion.setBorderPainted(false);
         btnConfiguracion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -261,7 +263,7 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_btnFarmaciaActionPerformed
 
     private void btnConfiguracionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfiguracionActionPerformed
-        iM.mostrar( panMain, new Configuracion() );
+        iM.mostrar( panMain, new VistaUsuario() );
     }//GEN-LAST:event_btnConfiguracionActionPerformed
 
     /**
