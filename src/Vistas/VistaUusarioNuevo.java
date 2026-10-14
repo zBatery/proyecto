@@ -50,7 +50,7 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         txtNombre = new javax.swing.JTextField();
         txtcontrasenia = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
+        btnCerrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -82,12 +82,12 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
 
         txtcontrasenia.addActionListener(this::txtcontraseniaActionPerformed);
 
-        jButton1.setBackground(new java.awt.Color(197, 0, 0));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("X");
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton1.addActionListener(this::jButton1ActionPerformed);
+        btnCerrar.setBackground(new java.awt.Color(197, 0, 0));
+        btnCerrar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnCerrar.setForeground(new java.awt.Color(255, 255, 255));
+        btnCerrar.setText("X");
+        btnCerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCerrar.addActionListener(this::btnCerrarActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -120,7 +120,7 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnCerrar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(6, 6, 6))
         );
         layout.setVerticalGroup(
@@ -129,7 +129,7 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnCerrar, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(62, 62, 62)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -186,9 +186,9 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtcontraseniaActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed
         this.setVisible(false);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnCerrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -216,9 +216,9 @@ public class VistaUusarioNuevo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCerrar;
     private javax.swing.JButton btnInicio;
     private javax.swing.JComboBox<String> cbRol;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
