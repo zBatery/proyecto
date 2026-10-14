@@ -247,7 +247,7 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_btnInicioActionPerformed
 
     private void btnPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPacienteActionPerformed
-        iM.mostrar( panMain, new Paciente() );
+        iM.mostrar( panMain, new VistaPaciente() );
     }//GEN-LAST:event_btnPacienteActionPerformed
 
     private void btnMedicinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMedicinaActionPerformed

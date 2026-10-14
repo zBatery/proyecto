@@ -8,12 +8,12 @@ package Vistas;
  *
  * @author crist
  */
-public class Paciente extends javax.swing.JPanel {
+public class VistaPaciente extends javax.swing.JPanel {
 
     /**
      * Creates new form Paciente
      */
-    public Paciente() {
+    public VistaPaciente() {
         initComponents();
     }
 
